@@ -22,7 +22,8 @@
     "webRequest",
     "webRequestBlocking",
     "declarativeContent",
-
+ 
+    "https://cuonline.cuiwah.edu.pk:8095/*",
     "https://cuonline.cuilahore.edu.pk:8091/*",
     "http://cuonline.cuilahore.edu.pk:8091/*",
     "https://cms.comsats.edu.pk:8083/*",
@@ -43,6 +44,7 @@
   "content_scripts": [
     {
       "matches": [
+        "https://cuonline.cuiwah.edu.pk:8095/*",
         "https://cuonline.cuilahore.edu.pk:8091/*",
         "http://cuonline.cuilahore.edu.pk:8091/*",
         "https://cms.comsats.edu.pk:8092/*",
